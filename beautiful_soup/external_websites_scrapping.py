@@ -20,7 +20,7 @@ def scrapping():
         skill_arr = ""
         
         for skill in skills:
-            skill_arr += skill.text + ','
+            skill_arr += skill.text + ', '
         print(f"Skills : {skill_arr}")
         print(f"For more info : {info}")
         print(f'\n\n\n')
